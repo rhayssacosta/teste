@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.t{
+    margin-top: 5rem;
+}
+.main{
+    background-color:rgb(255, 244, 251) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+.boxLogin{
+    
+    width: 40%;
+    height: 80%;
+}
+.boxLogin h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.form-login{
+    background-color: white;
+    padding: 2rem;
+}
+
+.form-login p  {
+    margin-bottom: 2rem;
+    font-weight: bolder
+}
+.form-login label {
+    font-weight: bolder;
+}
+.input{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+.check{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    
+}
+input[type="checkbox"]{
+    accent-color: #d63384;
+    width: 1.5rem;
+
+}
+.button{
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10rem;
+}
+
+
+
+

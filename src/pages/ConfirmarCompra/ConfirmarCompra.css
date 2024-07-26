@@ -1,0 +1,243 @@
+.container-confirm-compra {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#h1-finaliz-compra {
+  width: 80%;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  letter-spacing: 1px;
+  color: var(--dark-gray-2);
+  padding: 2rem 3rem;
+}
+
+.dados-confirm-compra {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-compra {
+  width: 50%;
+  padding: 0 0.5rem;
+  
+}
+
+.form-dados {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-dados-entrega {
+  display: flex;
+  flex-direction: column;
+}
+
+.formas-pagamento {
+  display: flex;
+  flex-direction: column;
+}
+
+.dados-pagamento {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.data-cartao {
+  display: flex;
+}
+
+.tipo-pagamento {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+
+}
+
+.inputs-confirm-compra {
+  background-color: var(--light-gray-3);
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--dark-gray-2);
+  font-weight: 400;
+  font-size: 0.8rem;
+  list-style: 1.5rem;
+  letter-spacing: 0.75px;
+  left: 0.8rem;
+  padding-left: 1rem;
+
+}
+
+.labels-confirm-compra {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+  left: 1.8rem;
+  height: 1.2rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.formsCompra {
+  background-color: var(--white);
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  border-radius: 0.5rem;
+}
+
+.resumo-pedido {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  height: 15rem;
+}
+
+.titulo-finalizar-compra {
+  padding: 0;
+}
+
+#linha-finali {
+  width: 100%;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.total-price p {
+  margin-bottom: 0;
+  color: var(--error);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.75px;
+
+}
+
+#forma-parcelamento {
+  display: flex;
+  justify-content: end;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: var(--light-gray);
+}
+
+.realizar-pagamento {
+  width: 100%;
+  height: 3.5remm;
+  background-color: var(--warning);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.75;
+}
+
+.realizar-pagamento:hover {
+  background-color: #cd8d17;
+}
+
+.info-conf-pedido {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.resumo-finali-compra {
+  width: 30%;
+  height: 40rem;
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.tit-resumo {
+  margin-top: 0;
+  padding-bottom: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.75px;
+}
+
+#linha-resumo {
+  width: 100%;
+}
+
+.resumo-do-pedido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.resumos-do-pedido {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.resumos-do-pedido1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resumo-valor-compra {
+  height: 6.2rem;
+  background-color: rgba(251, 251, 140, 0.305);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.total-compra {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2) ;
+}
+
+#condicao-pagamento {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: var(--light-gray);
+}
+
+.finalizar-compra {
+  width: 100%;
+  height: 3.5remm;
+  background-color: var(--warning);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.8rem 0;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.75;
+}

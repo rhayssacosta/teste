@@ -1,0 +1,167 @@
+body {
+    background-color: var(--light-gray-3);
+}
+
+.container-fluid {
+    justify-content: center;
+}
+
+.section-destaque {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.titulo-destaques {
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2); 
+    margin: auto; 
+}
+
+#container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#titulo-card-destaque {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    padding-left: 0;
+}
+
+.cards-destaque {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 0.5px;
+    margin-top: 0.05px;
+    gap: 10px;
+}
+
+
+.card-2 {
+    height: 100%;
+    width: 33%;
+    background-color: #D8E3F2;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+    width: 33%;
+}
+
+.img-card {
+    width: 60%;
+    height: 80%;
+    position: relative;
+    right: 0;
+}
+
+.desconto-produto {
+    background-color: #E7FF86;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    padding: 15px, 5px, 15px, 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.produto-em-oferta {
+    font-family: 'Inter';
+    font-size: 2rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem 0;
+    position: absolute;
+}
+
+.btn-destaque {
+    width: 153px;
+    height: 48px;
+    text-decoration: none;
+    color: var(--primary);
+    background-color: #F7F7FC;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.75px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.btn-destaque:hover {
+    background-color: var(--success);
+    color: var(--light-gray-3);
+}
+
+.icone-colecao {
+    width: 45rem;
+    height: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.icones-colecao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-icone {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.icones-colecao:hover {
+    transform: scale(1.05);
+}
+
+.icones-destaque {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+

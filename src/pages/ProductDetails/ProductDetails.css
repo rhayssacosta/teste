@@ -1,0 +1,228 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container-5 {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .header .nav {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header .nav li {
+      margin-left: 20px;
+    }
+
+    .header .nav a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .header .search {
+      display: flex;
+      align-items: center;
+    }
+
+    .header .search input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .header .search button {
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .product {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .product .image {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+    }
+
+    .product .details {
+      width: 50%;
+    }
+
+    .product .details h1 {
+      margin-top: 0;
+    }
+
+    .product .details p {
+      margin-top: 10px;
+    }
+
+    .product .details .rating {
+      display: flex;
+      align-items: center;
+    }
+
+    .product .details .rating .star {
+      color: #ffc107;
+      font-size: 16px;
+    }
+
+    .product .details .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .product .details .price .old {
+      text-decoration: line-through;
+      color: #999;
+      font-size: 18px;
+    }
+
+    .product .details .size {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product .details .size .option {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .product .details .size .option.selected {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .product .details .button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .related-products {
+      margin-top: 20px;
+    }
+
+    .related-products .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .related-products .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .related-products .product {
+      width: 20%;
+      margin-bottom: 20px;
+    }
+
+    .related-products .product .image {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .related-products .product .details {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .related-products .product .details h2 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .related-products .product .details .price {
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .related-products .product .details .old {
+      text-decoration: line-through;
+      color: #999;
+      font-size: 14px;
+    }
+
+  
+    .color_unid{
+      width: 20px;
+      height: 20px;
+      background-color: #007bff;
+      margin-right: 5px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 50%;
+    }
+
+    .qualquer{
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: left;
+    }
+    
+    #roxo{
+      background-color:#6D70B7;
+      ;
+    }
+    #preto{
+      background-color:#5E5E5E;
+      ;
+    }
+    #rosa{
+      background-color: #FF6969;
+      ;
+    }
+    #ciano{
+      background-color:#6FEEFF;
+      ;
+    }

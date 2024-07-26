@@ -1,0 +1,248 @@
+.container-1 {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 70%;
+}
+.cart-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+    
+    margin: 10rem 1rem 5rem 8rem;
+    border-radius: 5px;
+    
+    margin-bottom: 20px;
+}
+
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+}
+.cart-item figure{
+    background-color: rgb(197, 197, 246);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.decrease,
+.increase {
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.remove-item {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+}
+
+
+
+.cart-summary ul {
+    list-style: none;
+    margin-top:2rem;
+}
+
+.cart-summary li {
+margin: 1rem 0;
+}
+
+.coupon,
+.shipping {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 45%;
+}
+.inptDF{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+
+}
+
+.coupon input,
+.shipping input {
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color:#f8f8f8;
+}
+
+.related-products {
+    margin: 10rem 1rem 5rem 8rem;
+   
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* victor */
+
+.t1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.t1 div{
+    display: flex;
+    gap: 3rem;
+}
+.desc{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn{
+    color: #C92071;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+
+
+}
+.vtodos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* cards spts */
+.produto {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.img-item {
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.imagem-produto {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 0.1rem;
+}
+
+.texto-produto {
+    padding: 10px;
+}
+
+.discount1 {
+    font-size: 0.7rem;
+    background-color: #E7FF86;
+    width: 40%;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.discount {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.valor {
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    color: #080808;
+}
