@@ -1,0 +1,73 @@
+.sectionAsideInfo {
+    margin-top: 5rem;
+    width: 100vw;
+    height: 110vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.asideDivGeral {
+    width: 90rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.divAside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.875rem;
+    font-family: Inter;
+    width: 20.875rem;
+    background-color:#FFFFFF;
+    border-radius: 0.25rem;
+}
+
+.asideLinkInfo {
+    text-decoration: none;
+}
+
+.asideInfoP1 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+    padding-top: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.asideInfoP {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+    padding-top: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    /* text-align: center; */
+    
+}
+
+.asideInfoP2 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    letter-spacing: 0.047rem;
+    color: #474747;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.asideInfoP:hover, .asideInfoP1:hover, .asideInfoP2:hover {
+    color: #C92071;
+}
+
+.linhaAside {
+    width: 17.125rem;
+    margin-top: 20px;
+}

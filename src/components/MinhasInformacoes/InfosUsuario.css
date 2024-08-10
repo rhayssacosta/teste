@@ -1,0 +1,59 @@
+.infosPage {
+    width: 55.625rem;
+    height: 520px;
+    background-color: #FFFFFF;
+    font-family: Inter;
+    border-radius: 4px;
+}
+
+.divMyInfos {
+    width: 51.875rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+#myInfosParagraph {
+    padding-top: 10px;
+}
+
+.editarPerfil {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #C92071;
+}
+
+.linhaInfosH {
+    width: 830px;
+    color: #CCCCCC;
+    margin-top: 10px;
+}
+
+.divInfos1 {
+    width: 778px;
+    margin: 20px 82px 0px 30px;
+}
+
+.myInfosP {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;  
+}
+
+.infosP {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+}

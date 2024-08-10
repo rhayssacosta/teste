@@ -1,5 +1,6 @@
 import { Footer } from '../../components/Footer/Footer'
 import { Header } from '../../components/Header/Header'
+import { Link } from "react-router-dom";
 import './MeusPedidos.css'
 
 export function MeusPedidos() {
@@ -20,10 +21,9 @@ export function MeusPedidos() {
                         <hr className='barra-divisao'/>
                     </a>
 
-                    <a className='menu-meus-pedidos' href="#">
-                        <p className='menu-opcoes'>Minhas Informações</p>
-                        <hr className='barra-divisao'/>
-                    </a>
+                    <Link to="/MinhasInformacoes"><p className='menu-opcoes'>Minhas Informações</p>
+                    <hr className='barra-divisao'/></Link>
+                        
 
                     <a className='menu-meus-pedidos' href="#">
                         <p className='menu-opcoes'>Métodos de pagamento</p>

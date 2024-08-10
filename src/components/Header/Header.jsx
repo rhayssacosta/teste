@@ -6,11 +6,11 @@ export function Header() {
     <>
       <header className="header-f">
         <section className="header-main">
-          <img
+          <Link to="/"> <img
             className="logo"
             src="src/image/logo-dc.png"
             alt="Digital Store"
-          />
+          /></Link>
           <div className="search">
             <input
               type="text"

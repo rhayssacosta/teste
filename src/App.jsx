@@ -9,6 +9,7 @@ import { ProductListing } from './pages/ProductListing/ProductListing'
 import { MeusPedidos } from './pages/MeusPedidos/MeusPedidos'
 import {ProductDetails} from './pages/ProductDetails/ProductDetails'
 import { ConfirmarCompra } from './pages/ConfirmarCompra/ConfirmarCompra'
+import { MinhasInformacoes } from './pages/MinhasInformacoes/MinhasInformacoes'
 
 export function App() {
 
@@ -23,6 +24,7 @@ export function App() {
         <Route path='/Pedidos' element={<MeusPedidos />} />
         <Route path='/ProductDetails' element={<ProductDetails />} />
         <Route path='/ConfirmarCompra' element={<ConfirmarCompra />} />
+        <Route path='/MinhasInformacoes' element={<MinhasInformacoes />} />
         
 
 

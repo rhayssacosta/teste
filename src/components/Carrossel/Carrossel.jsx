@@ -1,4 +1,5 @@
 import './Carrossel.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export function Carrossel() {
 
