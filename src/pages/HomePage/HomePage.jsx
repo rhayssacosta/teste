@@ -1,6 +1,6 @@
 // import './HomePage.css'
 import { Header } from '../../components/Header/Header'
-import { Carrossel } from '../../components/Carrossel/Carrossel'
+import UncontrolledExample from '../../components/Carrossel/Carrossel'
 import { Section } from '../../components/Section/Section'
 import { ProdutosEmAlta } from '../../components/ProdutosEmAlta/ProdutosEmAlta'
 import { OfertaEspecial } from '../../components/OfertaEspecial/OfertaEspecial'
@@ -11,7 +11,7 @@ export function HomePage() {
     return (
       <>
       <Header/>
-      <Carrossel />
+      <UncontrolledExample />
       <Section />
       <ProdutosEmAlta />
       <OfertaEspecial />

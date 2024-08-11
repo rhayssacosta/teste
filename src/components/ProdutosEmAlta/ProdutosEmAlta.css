@@ -1,3 +1,9 @@
+.produtos-em-alta {
+    background-color: #f8f8fd;
+    height: 140vh;
+    margin-top: 0;
+}
+
 #itens-1 {
     display: flex;
     flex-wrap: wrap;

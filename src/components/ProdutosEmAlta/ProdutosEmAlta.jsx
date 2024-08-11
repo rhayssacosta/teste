@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
 import './ProdutosEmAlta.css'
 
 export function ProdutosEmAlta() {
 
   return (
     <>
+    <section className='produtos-em-alta'>
       <div className='titulo-em-alta'>
         <h2 className='titulo-em-alta' id='titulo-prod-em-alta'>Produtos em alta</h2>
-        <a className='titulo-em-alta' id='ver-mais-produtos' href="#">Ver todos →</a>
+        <Link to="/Produtos" className='titulo-em-alta' id='ver-mais-produtos'>Ver todos →</Link>
       </div>
       <div className='container-fluid' id='itens-1'>
 
@@ -131,6 +133,7 @@ export function ProdutosEmAlta() {
         </div>
 
       </div>
+      </section>
     </>
   )
 }

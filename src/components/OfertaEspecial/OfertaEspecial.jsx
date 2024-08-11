@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './OfertaEspecial.css'
 
 export function OfertaEspecial() {
@@ -14,7 +15,7 @@ export function OfertaEspecial() {
                         <p id="subtitulo-oferta-especial">Oferta especial</p>
                         <h2 id="titulo-oferta">Air Jordan edição de colecionador</h2>
                         <p id="texto-oferta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <a className="btn-oferta" href="#">Ver Oferta</a> 
+                        <Link to="/Produtos" className="btn-oferta">Ver Oferta</Link> 
                     </div>
                 </div>
 

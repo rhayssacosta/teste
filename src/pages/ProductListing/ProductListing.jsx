@@ -36,7 +36,7 @@ export function ProductListing() {
             <h3 className='titulo-item'>Filtrar por</h3>
             <hr />
             <div>
-              <p className='titulo-item'>Marka</p>
+              <p className='titulo-item'>Marca</p>
               <ul>
                 <li>
                   <input type="checkbox" name="marca" id="adidas" />

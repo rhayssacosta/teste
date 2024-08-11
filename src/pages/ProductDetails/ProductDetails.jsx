@@ -1,10 +1,11 @@
 import {Header} from '../../components/Header/Header'
 import { Link } from 'react-router-dom'
 import {Footer} from '../../components/Footer/Footer'
+import { ProdutosEmAlta } from '../../components/ProdutosEmAlta/ProdutosEmAlta'
 import './ProductDetails.css'
 
-export function ProductDetails(){
 
+export function ProductDetails(){
 
 return (
   <>
@@ -53,6 +54,7 @@ return (
       {/* ADD CARROSSEL */}
     </div>
   </div>
+  <ProdutosEmAlta />
   <Footer/>
   </>
   )

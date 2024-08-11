@@ -1,10 +1,10 @@
 import './Section.css'
-
+import { Destaque } from './Destaque'
 export function Section() {
 
   return (
     <>
-      <section className='section-destaque' id='testes'>
+      {/* <section className='section-destaque' id='testes'>
 
         <div className='container-fluid' id='container-cards'>
           <h2 className='titulo-destaques' id='titulo-card-destaque'>Coleções em destaque</h2>
@@ -41,8 +41,10 @@ export function Section() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
+      <Destaque />
+      
       <section className='section-destaque' id='testes2'>
         <div className='icone-colecao'>
           <h2 className='titulo-destaques'>Coleções em destaque</h2>

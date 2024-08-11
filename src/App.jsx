@@ -10,6 +10,7 @@ import { MeusPedidos } from './pages/MeusPedidos/MeusPedidos'
 import {ProductDetails} from './pages/ProductDetails/ProductDetails'
 import { ConfirmarCompra } from './pages/ConfirmarCompra/ConfirmarCompra'
 import { MinhasInformacoes } from './pages/MinhasInformacoes/MinhasInformacoes'
+import { CompraRealizada } from './components/PaginaSucesso/CompraRealizada'
 
 export function App() {
 
@@ -25,6 +26,7 @@ export function App() {
         <Route path='/ProductDetails' element={<ProductDetails />} />
         <Route path='/ConfirmarCompra' element={<ConfirmarCompra />} />
         <Route path='/MinhasInformacoes' element={<MinhasInformacoes />} />
+        <Route path='/CompraFinalizadaComSucesso' element={<CompraRealizada />} />
         
 
 

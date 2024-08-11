@@ -22,6 +22,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+#menu-opcoes {
+    text-decoration: none;
+}
+
 .menu-opcoes {
     font-weight: 700;
 }

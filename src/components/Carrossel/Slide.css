@@ -1,5 +1,19 @@
-.ofertasTexto {
+.section-carrossel {
+    background-color: var(--light-gray-3);
+    width: 100vw;
+    height: 42.563rem;
+    display: flex;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+}
+
+.divCarrosselGeral {
+    display: flex;
     width: 90rem;
+    margin-left: 100px;
+}
+
+.ofertasTexto {
     display: flex;
     justify-content: start;
     position: absolute;
@@ -22,6 +36,14 @@
     font-weight: 800;
     line-height: 4.125rem;
     letter-spacing: 0.063rem;
+}
+
+.fire-carrossel {
+    position: relative;
+    top: -9px;
+    height: 4rem;
+    width: 4rem;
+
 }
 
 .paragrafoDescricaoOferta {
@@ -53,3 +75,44 @@
     background-color: var(--tertiary);
     transition: 0.5rem;
 }
+
+.divCarrosselImagens {
+   display: flex;
+   justify-content: center;
+}
+
+
+.carrosselImagens {
+    width: 90rem;
+}
+
+.divImagensOferta {
+    display: flex;
+    justify-content: center; 
+}
+
+#imagemOrnament {
+    width: 8.75rem;
+    height: 8.75rem;
+    margin-top: 0rem;
+    margin-left: 78rem;
+    margin-bottom: 25rem;
+
+}
+
+.divCarrosselImagens {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ofertaNikeTenis {
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 24rem;
+    margin-top: 0;
+    position: absolute;
+}
+
+

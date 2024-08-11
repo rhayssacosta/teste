@@ -21,7 +21,7 @@ export function MeusPedidos() {
                         <hr className='barra-divisao'/>
                     </a>
 
-                    <Link to="/MinhasInformacoes"><p className='menu-opcoes'>Minhas Informações</p>
+                    <Link to="/MinhasInformacoes" id='menu-opcoes'><p className='menu-opcoes'>Minhas Informações</p>
                     <hr className='barra-divisao'/></Link>
                         
 

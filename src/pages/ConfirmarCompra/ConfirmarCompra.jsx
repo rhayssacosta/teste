@@ -1,6 +1,7 @@
 import { Header  } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import './ConfirmarCompra.css'
+import { Link } from 'react-router-dom'
 
 export function ConfirmarCompra() {
 
@@ -126,7 +127,7 @@ export function ConfirmarCompra() {
               </div>
               <p id='condicao-pagamento'>ou 10x de R$ 21,00 sem juros</p>
             </div>
-            <a className='finalizar-compra' href="#">Realizar Pagamento</a>
+            <Link to="/CompraFinalizadaComSucesso" className='finalizar-compra'>Realizar Pagamento</Link>
           </div>
 
         </div>

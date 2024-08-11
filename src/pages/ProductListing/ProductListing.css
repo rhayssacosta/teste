@@ -13,8 +13,9 @@
 }
 
 .section {
-    background-color: #F5F5F5;
+    background-color: #f8f8fd;
     font-family: 'Inter', sans-serif;
+    height: 390vh;
 }
 
 #container {
